@@ -7,7 +7,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 # Bir bot oluşturma ve yetkileri aktarma
 client = discord.Client(intents=intents)
-
+#denemek için ekliyorum
 @client.event
 async def on_ready():
     print(f'{client.user} olarak giriş yapıldı')
