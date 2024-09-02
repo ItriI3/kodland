@@ -24,3 +24,5 @@ async def on_message(message):
         await message.channel.send("Şifreniz: " + gen_pass(10))
 
 client.run("TOKEN BURAYA YAZILACAK")
+
+merthaba gsşdkfşdkglfd
